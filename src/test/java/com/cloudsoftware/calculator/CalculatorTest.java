@@ -7,6 +7,11 @@ public class CalculatorTest{
 	
 	@Test
 	public void testMulti(){
-		assertEquals(30, calculator.multi(5,6));
+		assertEquals(30, calculator.mul(5,6));
+	}
+	
+	@Test
+	public void testSum(){
+		assertEquals(5, calculator.sum(2,3));
 	}
 }

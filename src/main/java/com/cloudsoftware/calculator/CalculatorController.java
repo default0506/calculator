@@ -12,10 +12,10 @@ class CalculatorController{
 			   @RequestParam("b") Integer b) {
 			return String.valueOf(calculator.sum(a,b));
 		}
-	@RequestMapping("/multi")
+	@RequestMapping("/mul")
 		String multi(@RequestParam("a") Integer a,
 			     @RequestParam("b") Integer b) {
-			return String.valueOf(calculator.multi(a,b));
+			return String.valueOf(calculator.mul(a,b));
 		}
 
 

@@ -6,7 +6,7 @@ public class Calculator{
 		return a + b;	
 	}
 
-	int multi(int a, int b){
+	int mul(int a, int b){
 		return a*b;
 	}
 }
